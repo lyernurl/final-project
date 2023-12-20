@@ -1,0 +1,34 @@
+.about {
+    background-color: #07161b;
+    color: #cec7bf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .about h2 {
+    color: #3d737f;
+  }
+  
+  .about  h3 {
+    color: #3d737f;
+    margin-top: 20px;
+  }
+  
+  .about  p {
+    line-height: 1.5;
+  }
+  
+  .about  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about  ul li {
+    margin-bottom: 10px;
+  }
+
+  

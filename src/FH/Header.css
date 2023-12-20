@@ -1,0 +1,96 @@
+.user-icon {
+  padding: auto;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px ;
+  }
+
+  .filmsD {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .sign-icon {
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    margin: 40px;
+    height: auto;
+  }
+  
+  .user-dropdown {
+    position: absolute;
+    bottom: -30px;
+    width: 90px;
+    background-color: #cec7bf;
+    padding: 5px;
+    color: #3d737f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .user-icon:hover .user-dropdown {
+    display: flex;
+    flex-wrap: wrap ;
+  }
+
+  .films-dropdown{
+    text-align: center;
+    position: absolute;
+    bottom: -200px;
+    width: 90px;
+    left: 0;
+    background-color: #cec7bf;
+    padding: 5px;
+    color: #3d737f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+
+  .filmsD:hover .films-dropdown {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .header {
+    background-color: #3d737f; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 100px; 
+  }
+  
+
+  .nav_bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_bar li {
+    margin-right: 70px;
+    color: #07161b; 
+  }
+  
+  
+  .nav_bar a {
+    text-decoration: none; 
+    color: #07161b;
+  }
+  
+  .nav_bar a .logo {
+    display: block; 
+  }
+  
+
+  .nav_bar a:hover {  
+    text-decoration: underline; 
+    color: red;
+  }

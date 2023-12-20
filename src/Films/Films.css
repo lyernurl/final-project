@@ -1,0 +1,39 @@
+.films {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #07161b   ;
+  }
+  
+  .films ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    background-color: #07161b;
+  }
+  
+  .films li {
+    color: #cec7bf;
+    border-radius: 10px;
+    border: 1px solid #cec7bf;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #3d737f;
+  }
+  
+  .films img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+.films h1{
+    margin-top: 10px ;
+    color: #cec7bf;
+}
+
+  
